@@ -2,6 +2,7 @@
 #include <vector>
 #include "MinXValue.h"
 #include "BubbleSort.h"
+#include "ShakerSort.h"
 
 // Объявление функции из второго файла
 void binarySearchMaxN(int X);
@@ -114,7 +115,17 @@ int main() {
                 }
                 std::cout << std::endl;
                 break;
+            case 2:
+                int arr[] = { 5, 3, 8, 4, 2 };
+                int size = sizeof(arr) / sizeof(arr[0]);
 
+                shakersort(arr, arr + size); // Сортируем массив
+
+                // Вывод отсортированного массива
+                for (int i = 0; i < size; i++) {
+                    std::cout << arr[i] << " ";
+                }
+                std::cout << std::endl;
             case 0:
                 std::cout << "Возврат в главное меню.\n";
                 break;
