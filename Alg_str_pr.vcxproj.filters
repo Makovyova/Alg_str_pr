@@ -27,12 +27,18 @@
     <ClCompile Include="BubbleSort.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="ShakerSort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MinXValue.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="BubbleSort.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ShakerSort.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

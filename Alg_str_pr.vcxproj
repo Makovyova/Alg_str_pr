@@ -143,10 +143,12 @@
     <ClCompile Include="BinarySearchMaxN.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="MinXValue.cpp" />
+    <ClCompile Include="ShakerSort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="MinXValue.h" />
+    <ClInclude Include="ShakerSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

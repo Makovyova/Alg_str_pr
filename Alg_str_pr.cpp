@@ -74,8 +74,8 @@ int main() {
         if (practiceChoice == 2) {
             std::cout << "Выберите задание для Практики 1:\n";
             std::cout << "1. Сортировка пузырьком \n";
+            //std::cout << "2. Шейкерная сортировка \n";
             /*
-            std::cout << "2. Шейкерная сортировка \n";
             std::cout << "3. Сортировка расческой \n";
             std::cout << "4. Сортировка вставками \n";
             std::cout << "5. Сортировка Шелла \n";
@@ -100,6 +100,7 @@ int main() {
             std::vector<int> arr = { 5, 2, 9, 1, 5, 6 }; // Пример массива для сортировки
             
             switch (taskChoice2) {
+            // 1. Сортировка пузырьком
             case 1:
                 std::cout << "Исходный массив: ";
                 for (int num : arr) {
@@ -115,6 +116,8 @@ int main() {
                 }
                 std::cout << std::endl;
                 break;
+             /*
+            // 2. Шейкерная сортировка
             case 2:
                 int arr[] = { 5, 3, 8, 4, 2 };
                 int size = sizeof(arr) / sizeof(arr[0]);
@@ -126,6 +129,7 @@ int main() {
                     std::cout << arr[i] << " ";
                 }
                 std::cout << std::endl;
+            */
             case 0:
                 std::cout << "Возврат в главное меню.\n";
                 break;
