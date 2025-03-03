@@ -3,6 +3,8 @@
 #include "MinXValue.h"
 #include "BubbleSort.h"
 #include "ShakerSort.h"
+#include "CombSort.h"
+#include "InsertionSort.h"
 
 // Объявление функции из второго файла
 void binarySearchMaxN(int X);
@@ -74,9 +76,9 @@ int main() {
         if (practiceChoice == 2) {
             std::cout << "Выберите задание для Практики 1:\n";
             std::cout << "1. Сортировка пузырьком \n";
-            //std::cout << "2. Шейкерная сортировка \n";
-            /*
+            std::cout << "2. Шейкерная сортировка \n";
             std::cout << "3. Сортировка расческой \n";
+            /*
             std::cout << "4. Сортировка вставками \n";
             std::cout << "5. Сортировка Шелла \n";
             std::cout << "6. Сортировка деревом \n";
@@ -116,20 +118,56 @@ int main() {
                 }
                 std::cout << std::endl;
                 break;
-             /*
+             
             // 2. Шейкерная сортировка
             case 2:
-                int arr[] = { 5, 3, 8, 4, 2 };
-                int size = sizeof(arr) / sizeof(arr[0]);
-
-                shakersort(arr, arr + size); // Сортируем массив
-
-                // Вывод отсортированного массива
-                for (int i = 0; i < size; i++) {
-                    std::cout << arr[i] << " ";
+                std::cout << "Исходный массив: ";
+                for (int num : arr) {
+                    std::cout << num << " ";
                 }
                 std::cout << std::endl;
-            */
+
+                shakersort(arr.data(), arr.data() + arr.size()); // Сортируем массив
+
+                std::cout << "Отсортированный массив: ";
+                for (int num : arr) {
+                    std::cout << num << " ";
+                }
+                std::cout << std::endl;
+                break;
+            // 3. Сортировка расческой
+            case 3:
+                std::cout << "Исходный массив: ";
+                for (int num : arr) {
+                    std::cout << num << " ";
+                }
+                std::cout << std::endl;
+
+                combsort(arr.data(), arr.data() + arr.size()); // Сортируем массив
+
+                std::cout << "Отсортированный массив: ";
+                for (int num : arr) {
+                    std::cout << num << " ";
+                }
+                std::cout << std::endl;
+                break;
+            // 
+            case 4:
+                std::cout << "Исходный массив: ";
+                for (int num : arr) {
+                    std::cout << num << " ";
+                }
+                std::cout << std::endl;
+
+                insertionsort(arr.data(), arr.data() + arr.size()); // Сортируем массив
+
+                std::cout << "Отсортированный массив: ";
+                for (int num : arr) {
+                    std::cout << num << " ";
+                }
+                std::cout << std::endl;
+                break;
+            //Выход в меню
             case 0:
                 std::cout << "Возврат в главное меню.\n";
                 break;

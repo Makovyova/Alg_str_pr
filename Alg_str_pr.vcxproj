@@ -142,11 +142,13 @@
     <ClCompile Include="Alg_str_pr.cpp" />
     <ClCompile Include="BinarySearchMaxN.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="CombSort.cpp" />
     <ClCompile Include="MinXValue.cpp" />
     <ClCompile Include="ShakerSort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="CombSort.h" />
     <ClInclude Include="MinXValue.h" />
     <ClInclude Include="ShakerSort.h" />
   </ItemGroup>
