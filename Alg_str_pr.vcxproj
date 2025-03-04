@@ -141,16 +141,44 @@
   <ItemGroup>
     <ClCompile Include="Alg_str_pr.cpp" />
     <ClCompile Include="BinarySearchMaxN.cpp" />
+    <ClCompile Include="BitonicSort.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="BucketSort.cpp" />
     <ClCompile Include="CombSort.cpp" />
+    <ClCompile Include="GnomeSort.cpp" />
+    <ClCompile Include="HeapSort.cpp" />
+    <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="MinXValue.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="RadixSort.cpp" />
+    <ClCompile Include="SelectionSort.cpp" />
     <ClCompile Include="ShakerSort.cpp" />
+    <ClCompile Include="ShellSort.cpp" />
+    <ClCompile Include="TimSort.cpp" />
+    <ClCompile Include="TreeSort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BankersAlgorithm.h" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="BitonicSort.h" />
     <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="BucketSort.h" />
     <ClInclude Include="CombSort.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="GnomeSort.h" />
+    <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="MinXValue.h" />
+    <ClInclude Include="PotentialMethod.h" />
+    <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="RadixSort.h" />
+    <ClInclude Include="SelectionSort.h" />
     <ClInclude Include="ShakerSort.h" />
+    <ClInclude Include="ShellSort.h" />
+    <ClInclude Include="TimSort.h" />
+    <ClInclude Include="TreeSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
